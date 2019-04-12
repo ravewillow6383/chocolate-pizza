@@ -1,5 +1,6 @@
 #list{
     display: block;
+    margin-top:25px;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
@@ -14,20 +15,20 @@ div ul li{
     position:absolute;
     float:left;
     left: 650px;
-    top: 900px;
+    top: 1000px;
     width: 2255px;
 }
 #right{
     position:absolute;
     float: right;
     width: 255px;
-    top: 900px;
+    top: 1000px;
     right: 650px;
 }
 .checked{
     text-decoration: line-through;
 }
-#bottomBorder{
+.bottomBorder{
  background-color:gray;
  color: gray;
  display: block;
@@ -42,7 +43,7 @@ div ul li{
     float:left;
 }
 #share{
-    position: relative;
+    position: absolute;
     float: right;
     color:white;
     width: 150px;
@@ -51,11 +52,12 @@ div ul li{
     width:115px;
     text-align: center;
     font-size: 13px;
-    right:450px;
-    padding: 8px;
+    align-content: center;
+    right:550px;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-top:50px;
 }
-footer img{
+footer img, p img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -63,15 +65,15 @@ footer img{
 footer{
     text-align: center;
     color: gray;
+    height:230px;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3{
     font-weight:bold;
     position: relative;
-    left: 100px;
-}
-bottom{
-    position: relative;
-    left:300px;
 }
 
 section{
@@ -91,4 +93,22 @@ h1{
 
 #tinyPrint{
     position: relative;
+}
+    left: 80px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bottom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+article{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:45%;
+    line-height:20px;
 }
