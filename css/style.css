@@ -94,6 +94,7 @@ h1{
 #tinyPrint{
     position: relative;
 }
+#bottomSection{
     left: 80px;
     width: 500px;
     margin-top: 10px;
