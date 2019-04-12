@@ -1,0 +1,44 @@
+#list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+div ul li{
+    z-index:2;
+    font-family: 'Ubuntu', sans-serif;
+    padding:2px;
+}
+#left{
+    position:absolute;
+    float:left;
+    left: 650px;
+    top: 200px;
+    width: 2255px;
+}
+#right{
+    position:absolute;
+    float: right;
+    width: 255px;
+    top: 200px;
+    right: 650px;
+}
+.checked{
+    text-decoration: line-through;
+}
+#paper{
+    border-bottom: outset;
+    border-width:5px; 
+}
+.bottom img{
+    position: absolute;
+    float:left;
+}
+#share{
+    position: fixed;
+    float: right;
+    color:white;
+    width: 150px;
+    background-color:rgb(179, 45, 0);
+}
